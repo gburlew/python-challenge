@@ -45,12 +45,18 @@ if voter_id not in unique_candidates:
                 cand2 = voter_id
             elif cand3 is None:
                 cand3 = voter_id
-This code is also something that I started on my own, but turned to xpert for help when it assigned the same name to all of the candidates. I had created 3 "if" functions, but because they were separate, they all ended up doing the same thing. I had xpert's help to turn it to a singular if function, with "elif" statements.
+This code is also something that I started on my own, but turned to xpert for help when it assigned the same name to all of the candidates. I had created 3 "if" functions, but because they were separate, they all ended up doing the same thing. I had xpert's help to turn it to a singular "if" function, with "elif" statements.
 
 totalvotes = sum(candidate_votes.values())   Another piece of code that xpert helped with, for finding the sum of the votes that each candidate received, as my original code wasn't correctly calculating this.
 
 Xpert helped convert "print(str(cand3) + ": " + {str((cand3_votes/vote_count) * 100).2f} + "%  ("+ str(cand3_votes) + ")")", which was my original code, to "print(f"{cand3}: {(cand3_votes/vote_count) * 100:.2f}%  ({cand3_votes})")"
 
+I was unsure how to assign the amount of votes that each candidate received correctly, so xpert gave me this function that I used for all candidates. cand1_votes = candidate_votes.get(cand1, 0)
+
+This function was also something xpert helped me with. Although I had developed a similar one on my own, I chose to use this one to simplify the script. totalvotes = sum(candidate_votes.values())
+
 A function that xpert suggested before I had gotten to this part of the instructions, which I ended up using. winner = max(candidate_votes, key=candidate_votes.get)
 
 I used the same help from reddit to create the analysis output text file.
+
+Along with that, I also used the script from pybank as a reference to start my code, which is why there are some similarities. This includes any help that I got from xpert for pybank, where it would be relevant for the pypoll code.
