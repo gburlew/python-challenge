@@ -1,6 +1,6 @@
-Python Challenge Readme
+# Python Challenge Readme
 
-Pybank:
+## Pybank:
 I had a lot of trouble creating a path to the pybank csv file, and had trouble getting my code to read the file as I thought it was actually an excel file, so I asked xpert how to solve this. I eventually figured out the budget_data file really was a csv file, but xpert did help me troubleshoot and create a code to go to the correct file path.
 
 Although I remember doing this in class, I was unsure how to do this at first when I thought the resources file had an excel file. This is the script that xpert gave me when I was still tring to figure out what file path to use:
@@ -23,13 +23,13 @@ Along with the help that has been documented thus far, I also got help from xper
 This code was also given to me by xpert, but I had pretty much already calculated this in my own code. I ended up using this one instead, as creating more variables was confusing and this one was overall more readable. "average_change = sum(changes)/len(changes)"
 
 Lastly, when writing the code that would make an output text file with the results, I found a post on reddit that was asking how to do this correctly. In the comments, I found this code "f = open("output.txt", "w")
-# and now you use print like before but with a file parameter:
+"# and now you use print like before but with a file parameter:"
 print(..., file=f)" in one of the comments. 
 Here is the link to the post that I got this information from. https://www.reddit.com/r/learnpython/comments/12emhsa/how_do_i_save_the_output_of_the_python_code_as_a/
 
 I would also like to note, just for transparency, that xpert helped me with general calculations and helping me identify other errors in my code, such as where in the code to put calculations to prevent the code from making mistakes. 
 
-Pypoll
+## Pypoll
 
 I was able to work more independently on this second part of the project, but I still got the following help: 
 
